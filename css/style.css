@@ -1,0 +1,473 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+.container {}
+
+.header {
+
+}
+
+.full-width {
+	width: 100%;
+}
+
+.inner {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.margin-top-big {
+	margin-top: 120px;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.center {
+	text-align: center;
+}
+
+.logo {
+	color: orangered;
+	padding: 20px 0;
+}
+
+/* Header End */
+
+.banner {
+	height: 600px;
+	background: url(../img/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.navbar {
+	background: rgba(0,0,0,0.5);
+}
+
+.nav {
+	overflow: hidden;
+}
+
+.nav li {
+	list-style: none;
+	float: left;
+}
+
+.nav li a {
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	padding: 10px 25px;
+}
+
+.nav li a:hover {
+	color: #fff;
+	background: rgba(0,0,255, 0.3);
+}
+
+.banner-text {
+	position: absolute;
+	bottom: 50px;
+	right: 50px;
+}
+
+.banner-text h2 {
+	color: #fff;
+	font-size: 42px;
+}
+.banner-text p {
+	color: orangered;
+	font-size: 26px;
+}
+
+/*Banner Style End */
+
+.our-team {}
+
+.our-team-top-content {
+	padding-bottom: 40px;
+}
+
+.our-team-top-content h2 {
+	text-align: center;
+	color: #a95e39;
+	font-size: 42px;
+}
+
+.our-team-top-content h2::after {
+	content: "";
+	display: block;
+	border-top: 1px solid #a95e39;
+	width: 160px;
+	margin: 25px auto;
+}
+
+.our-team-top-content p {
+	text-align: center;
+}
+
+.our-team-leaders {
+	overflow: hidden;
+}
+
+.single-team-leader {
+	width: 30%;
+	float: left;
+	margin-left: 5%;
+}
+
+.single-team-leader:first-child {
+	margin-left: 0;
+}
+
+
+.team-leader-photo {
+	height: 480px;
+	width: 100%;
+	background: #bfc7cb;
+}
+
+.team-leader-photo img {
+	width: 100%;
+	height: 100%	
+}
+
+
+.team-leader-details h3 {
+	padding: 20px 0;
+	text-align: center;
+}
+
+.team-leader-details p {
+	text-align: center;
+}
+
+/* Team Leaders Area  END*/
+
+.company-resources {
+	background: #1f3138;
+}
+
+.resource-area {
+	overflow: hidden;
+	padding: 50px 0;
+}
+
+.single-resource-item {
+	width: 25%;
+	float: left;
+}
+
+.single-resource-item h2 {
+	text-align: center;
+	font-size: 36px;
+	color: #89553c;
+	margin-bottom: 10px;
+}
+
+.single-resource-item p {
+	text-align: center;
+	color: #fff;
+}
+
+/* Company Resource section end */
+
+.all-members-photo img {
+	width: 100%;
+}
+
+/* All Members Photo Section end */
+
+.contact-us {
+	background: #2a3e47;
+}
+
+.form-header {
+	text-align: center;
+	padding-top: 100px;
+	color: #fff;
+}
+
+.form-header h2 {
+	margin-bottom: 20px;
+}
+
+form {
+	overflow: hidden;
+	padding: 50px 0; 
+}
+
+
+.form-left, .form-right {
+	float: left;
+	width: 47%;
+}
+
+.form-left {
+	margin-right: 6%;
+}
+
+
+input, textarea, select {
+	display: block;
+	width: 100%;
+	border: none;
+	background: #2a3e47;
+	border-bottom: 1px solid #bfbfbf;
+	color: #bfbfbf;
+	padding: 10px;
+	margin-bottom: 30px;
+}
+
+input:focus, textarea:focus {
+	outline: none;
+}
+
+.message {
+	height: 160px;
+}
+
+.btn {
+	display: block;
+	padding: 12px 30px;
+	background: #9c5836;
+	border: none;
+	color: #fff;
+	float: right;
+}
+
+/* Form section end */
+
+.about-us {
+	overflow: hidden;
+}
+
+.about-photo {
+	width: 48%;
+	margin-right: 4%;
+	float: left;
+}
+
+.about-photo img {
+	width: 100%;
+}
+
+.about-content {
+	width: 48%;
+	background: #f9f9fb;
+	border: 2px solid #d2d3d7;
+	float: left;
+}
+
+.about-content-header {
+	text-align: center;
+	padding: 30px 0;
+}
+
+.single-content-photo {
+	width: 30%;
+	margin-left: 2.5%;
+	float: left;
+	position: relative;
+	padding-bottom: 25px;
+}
+
+
+.single-content-photo::after {
+	content: "";
+    height: 30px;
+    display: block;
+    border-right: 1px solid;
+    position: absolute;
+    top: 117px;
+    left: 60px;
+}
+
+
+.content-photo-img {
+	background: #ccc;
+	height: 116px;
+	width: 116px;
+	border-radius: 5555555555555%;
+}
+
+.content-photo-img img {
+	width: 100%;
+}
+
+.team-box {
+	border: 1px solid #333;
+	padding: 5px;
+	margin-top: 30px;
+}
+
+
+/* About Us style End */
+
+.gallery-header h2 {
+	color: #BF5E35;
+	margin-bottom: 40px;
+}
+
+.gallery-header p {
+	line-height: 40px;
+}
+
+
+.gallery-image {
+	overflow: hidden;
+}
+
+.single-gallery-image {
+	float: left;
+	width: 20%;
+	height: 400px;
+	margin-top: 40px;
+}
+
+.single-gallery-image img {
+	width: 100%;
+	height: 100%;
+}
+
+
+.gallery-button {
+	background: #d6d6d6;
+	overflow: hidden;
+	padding: 10px 0;
+}
+
+.gallery-button a {
+	display: block;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	color: #BF5E35;
+	border: 1px solid #BF5E35;
+	text-align: center;
+	text-decoration: none;
+	line-height: 35px;
+}
+
+.gallery-button a:hover {
+	background: #BF5E35;
+	color: #fff;
+}
+
+.left-button {
+	float: left;
+}
+
+.right-button {
+	float: right;
+}
+/* batton end */
+
+.footer-top {
+	background: #062831;
+	padding: 30px;
+}
+.single-footer-content {
+	float: left;
+	width: 20%;
+}
+
+.single-footer-content h3 {
+	color: #fff;
+	margin-bottom: 10px;
+}
+single-footer-content ul {
+	
+}
+
+.single-footer-content ul li  {
+	list-style: none;
+	margin-bottom: 10px;
+}
+
+.single-footer-content ul li a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.single-footer_content {
+	
+}
+
+.number p {
+	color: #fff;
+}
+
+.phone {
+	overflow: hidden;
+}
+
+.location {
+	overflow: hidden;
+	margin-top: 20px;
+}
+
+.icon {
+	width: 25%;
+	float: left;
+}
+
+.icon-text {
+	width: 75%;
+	float: left;
+}
+
+.icon-text p {
+	color: #fff;
+}
+
+.footer-bottom {
+	background: #000;
+	overflow: hidden;
+	padding: 20px 0;
+}
+
+.address {
+	float: left;
+	color: #fff;
+}
+
+.social-icon {
+	float: right;
+}
+
+.social-icon ul {
+	overflow: hidden;
+}
+
+.social-icon ul li {
+	float: left;
+	list-style: none;
+	margin-right: 5px;
+	border: 1px solid #fff;
+}
+.social-icon ul li a {
+	display: block;
+	height: 35px;
+	width: 35px;
+}
+
+.social-icon ul li a img {
+	width: 100%;
+	height: 100%;
+}
+
+
